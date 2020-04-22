@@ -11,7 +11,7 @@
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
 
   </head>
-<nav class="navbar navbar-expand-md navbar-dark bg-dark sticky-top">
+<nav class="navbar navbar-expand-md navbar-light bg-light">
     <div class="container">
       <a href="index.html" class="navbar-brand">Latitude Weather Analysis</a>
 
@@ -20,7 +20,7 @@
     </button>
       <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav"> 
-        
+       
         <li class="nav-item">
           <a class="nav-link" href="data.html">Data</a>
         </li>
@@ -39,28 +39,29 @@
             <a class="dropdown-item" href="humidity.html">Latitude vs Humidity</a>
             <a class="dropdown-item" href="windiness.html">Latitude vs Wind Speed</a>
 
-         
+          
           </div>
         </li>
       </ul>
     </div>
   </nav>
 <body>
-  
-    
-    <div class="container">
-      <div class="row">
-          <div class="col-md-7 col-md-5">
-                  <h3 class="title">Cloudiness</h3>
-                  <hr>
-                  <img src="Images/cloudiness.png" class="img-fluid img-responsive pull-right center" alt="Cloudy Map">
-  
-    <p> There was no clear relationship between latitude and cloudiness.However,it is important to note that cities closer to the equator have less cloudy 
-        skies compared to those that are further away.
-       </p>
-          </div>
-      </div>
-    </div>
 
+  <div class="container">
+    <div class="row">
+        <div class="col-lg-7 col-md-12">
+            <div class="box">
+                <h3 class="title">Wind Speed</h3>
+                <hr>
+                <img src="Images/wind.png" class="img-fluid img-responsive pull-right" alt="Wind Map">
+                <div class="img-fluid"></div>
+
+      <p> There was also no clear direct relationship between latitude and wind speed.From the 
+       chart, most cities are located in areas with low wind speed that is 10mph and below. 
+      </p>
+            </div>
+        </div>
+    </div>
+  </div>
 </body>
 </html>

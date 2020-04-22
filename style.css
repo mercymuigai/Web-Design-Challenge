@@ -1,0 +1,41 @@
+/* Giving the body the specified background color, adding font sizes for the h1 and h3 elements we'll be using */
+body {
+
+    /* background-color: rgb(126, 211, 250); */
+    background-image: url("Images/sky_background_nature_blue_clouds_blue_sky_climate_clear-639846.jpg!d");
+    /* opacity: 50%; */
+    /* background-size: cover; */
+  }
+  
+  h1 {
+    font-size: 30px;
+    color: black;
+    position:right;
+  }
+  
+
+  h2{
+      font-size: 20px;
+      color:black;
+      position: center;
+  }
+
+  h3{
+      font-size: 30px;
+      color: black;
+  }
+
+  .header {
+    position: center;
+  }
+
+
+
+
+  /* .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 800%;
+  } */
+
